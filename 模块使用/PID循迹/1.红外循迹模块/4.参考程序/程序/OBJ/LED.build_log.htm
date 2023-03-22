@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: D D, D, LIC=VGXJJ-UVW7Y-VE0HA-1YCQ8-K6DJL-Z1QC8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\SoftWarePath\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\店铺\产品\客户产品资料\1.红外循迹模块\4.参考程序\程序\USER\LED.uvprojx
+Project File Date:  02/11/2020
+
+<h2>Output:</h2>
+Build target 'LED'
+compiling track.c...
+..\HARDWARE\Track\track.c(26): error:  #20: identifier "ADC_CHANNEL_10" is undefined
+        Right_AD=Get_Adc(ADC_CHANNEL_10);       //左传感器获取的AD值
+..\HARDWARE\Track\track.c(27): error:  #20: identifier "ADC_CHANNEL_11" is undefined
+        Mid_AD=Get_Adc(ADC_CHANNEL_11); //中间传感器获取的AD值
+..\HARDWARE\Track\track.c(28): error:  #20: identifier "ADC_CHANNEL_12" is undefined
+        Left_AD=Get_Adc(ADC_CHANNEL_12);                //中间传感器获取的AD值
+..\HARDWARE\Track\track.c: 0 warnings, 3 errors
+"..\OBJ\LED.axf" - 3 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\店铺\产品\客户产品资料\1.红外循迹模块\4.参考程序\程序\USER\RTE
+  C:\SoftWarePath\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>
